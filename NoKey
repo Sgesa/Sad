@@ -4168,10 +4168,10 @@ shared.scr = [[ [SQP*$] [sWD(%]       %   [W(%]       % [sWD(%] [qg^SE]       ^
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-local Tab1 = Window:NewTab("Stop Piano")
-local Tab1Section = Tab1:NewSection("Stop Piano")
+local Tab2 = Window:NewTab("Stop Piano")
+local Tab2Section = Tab2:NewSection("Stop Piano")
 
-Tab1Section:NewButton("Stop piano", "Auto", function()  
+Tab2Section:NewButton("Stop piano", "Auto", function()  
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -4185,5 +4185,5 @@ shared.scr = [[ e ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.RightControl, function()
+Tab2Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.RightControl, function()
     Library:ToggleUI()
