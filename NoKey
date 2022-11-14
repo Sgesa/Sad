@@ -1,9 +1,9 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("Private Ui", "Synapse")
 
-local Tab = Window:NewTab("Auto Piano")
-local Section = Tab:NewSection("Auto Piano")
-Section:NewButton("Faded", "Autoplayf", function()
+local Tab1 = Window:NewTab("Auto Piano")
+local Tab1Section = Tab1:NewSection("Auto Piano")
+Tab1Section:NewButton("Faded", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -36,7 +36,7 @@ h [8sf] h [osf] [8h] [osf] h [8of] d g 5 9 w p g w [of] w
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 end)
-Section:NewButton("Blue bird", "Auto", function()
+Tab1Section:NewButton("Blue bird", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
@@ -70,7 +70,7 @@ t [ej] [tx] [uz] q [ej] [tx] [iz] w [rh] y [oh] - [etupj] [etupj] ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Rush E", "Auto", function()
+Tab1Section:NewButton("Rush E", "Auto", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -84,7 +84,7 @@ shared.scr = [[ u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u u 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Fur Elise", "Auto", function()
+Tab1Section:NewButton("Fur Elise", "Auto", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -104,7 +104,7 @@ fDfDfads [p6] 0e tup [a3] 0W usa [p6] 0e asd [f8] wt ogf [d5] wr ifd [s6] 0e uds
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("kiss the rain", "Autoplayf", function()
+Tab1Section:NewButton("kiss the rain", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -130,7 +130,7 @@ e [5t] 9 r [8t] 0 w t 8 0 w t u
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Enemy Imagine dragons transition 2", "Auto", function()
+Tab1Section:NewButton("Enemy Imagine dragons transition 2", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -227,7 +227,7 @@ s [30ua] O [Wua] 0 7 3
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("We The Kings", "Auto", function()
+Tab1Section:NewButton("We The Kings", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -262,7 +262,7 @@ s h f (i) s h f (t) s h d (o) d s f (o) d s
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Making my way downtown", "Auto", function()
+Tab1Section:NewButton("Making my way downtown", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -276,7 +276,7 @@ shared.scr = [[ aukakJIaJYGuDSaukakJIaJYGaGaGauDfDSukakJIaJYGuDSauDSaIDSaYGuaSra
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("oN MY WAY", "Auto", function()
+Tab1Section:NewButton("oN MY WAY", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
@@ -373,7 +373,7 @@ o p o y u j h d f t r e
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Its Raining Tacos", "Auto", function()
+Tab1Section:NewButton("Its Raining Tacos", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -387,7 +387,7 @@ shared.scr = [[ s s d f 8 [to] 8 t 8 t 8 [tf] [d5] [ws] [d5] [wa] 5 w 5 w [s6] e
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("World's Smallest Violin", "Auto", function()
+Tab1Section:NewButton("World's Smallest Violin", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -457,7 +457,7 @@ l [QIyl] z [wuox] v [wuov] x [eupb] v [eupv] x [9eyx]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Megalovania", "Auto", function()
+Tab1Section:NewButton("Megalovania", "Auto", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -498,7 +498,7 @@ y e W w q 9 q w: 9 9 y e W w q 9 q
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Merry Go Round Of Life - Howl's Moving Castle", "Auto", function()
+Tab1Section:NewButton("Merry Go Round Of Life - Howl's Moving Castle", "Auto", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -512,7 +512,7 @@ shared.scr = [[ [dP] [sD] [dP] [sD] [dP] [sD] [sp] [dP] [sp] [dP] [sp] [dP] [oP]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Unravel Tokyo Ghoul", "Auto", function()
+Tab1Section:NewButton("Unravel Tokyo Ghoul", "Auto", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -746,7 +746,7 @@ shared.scr = [[       B    [mh]       B       b       v       J       m       D
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Rickroll Hard", "Auto", function()
+Tab1Section:NewButton("Rickroll Hard", "Auto", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -780,7 +780,7 @@ shared.scr = [[  [wuto]  [ypeI]    [ye]  [ypeI]  [uroa]    [yd]    [ts]    [ra]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Silhouette Naruto OP 16", "Autoplayf", function()
+Tab1Section:NewButton("Silhouette Naruto OP 16", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -794,7 +794,7 @@ shared.scr = [[ [??] [?7r] e [?7r] y [?6] e [?6r] e [?5r] y [?5] e [?6r] [?yd] 2
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Omori Final Duet", "Autoplayf", function()
+Tab1Section:NewButton("Omori Final Duet", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -850,7 +850,7 @@ shared.scr = [[  m n v l h f d s
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Great Fairy Mountain (Zelda)", "Autoplayf", function()
+Tab1Section:NewButton("Great Fairy Mountain (Zelda)", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -895,7 +895,7 @@ C [yz] [pJ] [oh] [sv] [pz] [oJ] [yh]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Solas", "Autoplayf", function()
+Tab1Section:NewButton("Solas", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1107,7 +1107,7 @@ u8 ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Lovely Bellie Eilish", "Autoplayf", function()
+Tab1Section:NewButton("Lovely Bellie Eilish", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1141,7 +1141,7 @@ o h G G f h [0u] ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Gnossienne No.1 Transpose 4", "Autoplayf", function()
+Tab1Section:NewButton("Gnossienne No.1 Transpose 4", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1174,7 +1174,7 @@ s d [eyi] s a [eyi]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Mariage d'Amour Transpose 2", "Autoplayf", function()
+Tab1Section:NewButton("Mariage d'Amour Transpose 2", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1212,7 +1212,7 @@ y [ilm] [ykn] [ejb] [5hv] 9 w [rhv] [jb] [hv] [6j] b 0 r [tp]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Comptine d'un autre été", "Autoplayf", function()
+Tab1Section:NewButton("Comptine d'un autre été", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1249,7 +1249,7 @@ y o d    y o d    y o d    y o d     y o t o   (x2) (y o d s [6p]) ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Super Idol", "Autoplayf", function()
+Tab1Section:NewButton("Super Idol", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1364,7 +1364,7 @@ shared.scr = [[       d       d       D       d       s       d    [o(]   [sYE]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Old Town Road", "Autoplayf", function()
+Tab1Section:NewButton("Old Town Road", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1427,7 +1427,7 @@ O O O [%D] S [%a] O O [7D] S a
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Tokyo Revenger - Cry Baby Transpose 4", "Autoplayf", function()
+Tab1Section:NewButton("Tokyo Revenger - Cry Baby Transpose 4", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1540,7 +1540,7 @@ z - e - [tizcb] - [7x] - [^cbm] - x - ^ - [zcb] -
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("XXXTentacion - SAD!", "Autoplayf", function()
+Tab1Section:NewButton("XXXTentacion - SAD!", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1554,7 +1554,7 @@ shared.scr = [[ {Eyo}  {Eyo} h D H h g g D h D g D g D h D g D g h D  H h g g D 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("No Mercy by 'The Living Tombstone", "Autoplayf", function()
+Tab1Section:NewButton("No Mercy by 'The Living Tombstone", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1592,7 +1592,7 @@ d d S d a ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("7!! - Orange", "Autoplayf", function()
+Tab1Section:NewButton("7!! - Orange", "Autoplayf", function()
    -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1611,7 +1611,7 @@ o [wP(] d [aD8] [ph] [w5] [e6] [r7] [t8] [y9] [u0] [QI] [wo] [pe] [ra] [ts]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Giorno Theme", "Autoplayf", function()
+Tab1Section:NewButton("Giorno Theme", "Autoplayf", function()
 -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1625,7 +1625,7 @@ shared.scr = [[  [r7] r r e r y r Q e [r7] r r e r i u y e [r7] r r e r y r Q e 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Great Days", "Autoplayf", function()
+Tab1Section:NewButton("Great Days", "Autoplayf", function()
 -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1669,7 +1669,7 @@ O [TPS] [YaD] [iSg]-[IDG]-[IDG] [IDG]-[PGJ]-[YaD]-[TPS] [YaD]-[iSg]-[IDG]-[IG]-[
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("My Wars", "Autoplayf", function()
+Tab1Section:NewButton("My Wars", "Autoplayf", function()
 -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1865,7 +1865,7 @@ e [S*] [fw] [hTu] w [fhJTo] [hw] j
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Netsujou no Spectrum", "Autoplayf", function()
+Tab1Section:NewButton("Netsujou no Spectrum", "Autoplayf", function()
 -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1931,7 +1931,7 @@ shared.scr = [[ [6t] [8u] [0p] e a s d [9i] [qp] [ef] y f j
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("One Punch Man・THE HERO !!", "Autoplayf", function()
+Tab1Section:NewButton("One Punch Man・THE HERO !!", "Autoplayf", function()
 -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -1994,7 +1994,7 @@ C  ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Bakemonogatari ED- Kimi no shiranai Monogatari", "Autoplayf", function()
+Tab1Section:NewButton("Bakemonogatari ED- Kimi no shiranai Monogatari", "Autoplayf", function()
 -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2118,7 +2118,7 @@ b j n j x j b [Gdn]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("The World - Death Note", "Autoplayf", function()
+Tab1Section:NewButton("The World - Death Note", "Autoplayf", function()
 -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2132,7 +2132,7 @@ shared.scr = [[ 7 7 7 [7u] o p [0a] a a d s [9a] a a p a [8o] o o p a [7Ya] p u 
 loadstring(game:HttpGet(""))()
 
 end)
-Section:NewButton("Boku no Hero Academia・Peace Sign", "Autoplayf", function()
+Tab1Section:NewButton("Boku no Hero Academia・Peace Sign", "Autoplayf", function()
 -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2149,7 +2149,7 @@ hgDshg[DW]dDdssP D[dt]PsPOoOPgD shgDHhgDdDgh ttttttYY hgDshg[DW]dDdssP D[dt]PsPO
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("gurenge - demon slayer", "Autoplayf", function()
+Tab1Section:NewButton("gurenge - demon slayer", "Autoplayf", function()
 -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2190,7 +2190,7 @@ p a d a
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("gurenge - demon slayer 2", "Autoplayf", function()
+Tab1Section:NewButton("gurenge - demon slayer 2", "Autoplayf", function()
 -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2263,7 +2263,7 @@ shared.scr = [[
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("New Rush E", "Autoplayf", function()
+Tab1Section:NewButton("New Rush E", "Autoplayf", function()
 -- CONFIG:
 shared.ftime = 2*50 + 50 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
@@ -2275,7 +2275,7 @@ u u u u u u u u u [uf] [uf] [uf] [uf] [uf] [ufx] [0ufx] [0ufx] [30ufx] [30ufx] [
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Heat Wave", "Autoplayf", function()   
+Tab1Section:NewButton("Heat Wave", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2290,7 +2290,7 @@ shared.scr = [[ T a f T [OS] f T S r a D r [aI] D r a [%W] O a W [YO] a W O [$Q]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Sugar Crush Transpose 7", "Autoplayf", function()   
+Tab1Section:NewButton("Sugar Crush Transpose 7", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2325,7 +2325,7 @@ d - f - f - d - s - [qetd] - f - f - f - f - [wtu] - d - f - f - d - s - [wryid]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Sugar Crush v2 Transpose 7", "Autoplayf", function()   
+Tab1Section:NewButton("Sugar Crush v2 Transpose 7", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2366,7 +2366,7 @@ f - f - [5ws] - s - [etu] --- s d - s ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Stay", "Autoplayf", function()   
+Tab1Section:NewButton("Stay", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2427,7 +2427,7 @@ w - 6 r t o - t - 3 [dk] r t [rah] w e [sj] ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Shot On Iphone Meme Transpose 3", "Autoplayf", function()   
+Tab1Section:NewButton("Shot On Iphone Meme Transpose 3", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2452,7 +2452,7 @@ y - [2yd] - [qeyd] - [2yd] - [yd] - [qeyd] - [ts] -
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Im at a payphone - marron 5", "Autoplayf", function()   
+Tab1Section:NewButton("Im at a payphone - marron 5", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2499,7 +2499,7 @@ q - [8wt] --- [8wtuf] - [ig] - [8wtuf] - [yd] - [60eyd] -
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Heart Attack Transpose -2", "Autoplayf", function()   
+Tab1Section:NewButton("Heart Attack Transpose -2", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2584,7 +2584,7 @@ e [0jb] 8 [6hv] 6 [4qfx] - q [ti] - q [ti] [sl] [5dz]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Death Bed", "Autoplayf", function()   
+Tab1Section:NewButton("Death Bed", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2631,7 +2631,7 @@ v - v - x -- x - b - x ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Kirameki - Your Lie in April ED TrANSpose -6", "Autoplayf", function()   
+Tab1Section:NewButton("Kirameki - Your Lie in April ED TrANSpose -6", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2753,7 +2753,7 @@ h m ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Kina - Get you to the moon Transpose 4", "Autoplayf", function()   
+Tab1Section:NewButton("Kina - Get you to the moon Transpose 4", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2809,7 +2809,7 @@ u - [5y] - t ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("5 seconds of summer - Youngblood Transpose -2 ", "Autoplayf", function()   
+Tab1Section:NewButton("5 seconds of summer - Youngblood Transpose -2 ", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2896,7 +2896,7 @@ j ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Friday Night Funkin - M.I.L.F Transpose 2", "Autoplayf", function()   
+Tab1Section:NewButton("Friday Night Funkin - M.I.L.F Transpose 2", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -2998,7 +2998,7 @@ u y [qt] - r - u y [0t] - r - e ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Chuunibyou demo Koi ga Shitai! Ren OP Transpose -5", "Autoplayf", function()   
+Tab1Section:NewButton("Chuunibyou demo Koi ga Shitai! Ren OP Transpose -5", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -3143,7 +3143,7 @@ p - y - 9 - 9 - 9 - * - [Y8tos] - 5 - 8 - [TOS8i] -
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("River Flows in you Transpose -5", "Autoplayf", function()   
+Tab1Section:NewButton("River Flows in you Transpose -5", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -3177,7 +3177,7 @@ s f h [e s f l] k l k [il] h l g [tf] g h f [wd] y o s a
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Squid Game OST - Way Back Then", "Autoplayf", function()   
+Tab1Section:NewButton("Squid Game OST - Way Back Then", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -3208,7 +3208,7 @@ shared.scr = [[ k       k       k       k       k       k       Z       k
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Squid Game Theme", "Autoplayf", function()   
+Tab1Section:NewButton("Squid Game Theme", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -3258,7 +3258,7 @@ shared.scr = [[ a       a       a       a       a       a       D       a
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Rush C", "Autoplayf", function()   
+Tab1Section:NewButton("Rush C", "Autoplayf", function()   
   -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -3272,7 +3272,7 @@ shared.scr = [[ s s s s s s s s s s s st stl stl8 stl8m stlm81 stlm81, q [Wt] 8 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("House Of Memories - Panic! At the Disco", "Auto", function()
+Tab1Section:NewButton("House Of Memories - Panic! At the Disco", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -3304,7 +3304,7 @@ shared.scr = [[ [eutp] [etu] [leut] k [jeut] h
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("left and right - charlie puth (ft. jung kook of BTS)", "Auto", function()
+Tab1Section:NewButton("left and right - charlie puth (ft. jung kook of BTS)", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -3393,7 +3393,7 @@ shared.scr = [[   [Ie9]       I       I       u       y  [o7Qe]       I       I
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Toxic Full Version", "Auto", function()
+Tab1Section:NewButton("Toxic Full Version", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -3489,7 +3489,7 @@ shared.scr = [[       P       P       P       P    [a%]    [WO]    [rD]       D
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Ghost-Justin Bieber", "Auto", function()
+Tab1Section:NewButton("Ghost-Justin Bieber", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -3554,7 +3554,7 @@ shared.scr = [[ y       I       p  [a7Qr]       I  [p59w]       y       y
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("One Call Away Charlie Puth", "Auto", function()
+Tab1Section:NewButton("One Call Away Charlie Puth", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -3568,7 +3568,7 @@ shared.scr = [[ bfdsps80wd579ff680gfdsg468f80wfd579fsspos80wd579ff680sfdsps468d5
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("GoodBye Subscriber Sheets Made BY me :(", "Auto", function()
+Tab1Section:NewButton("GoodBye Subscriber Sheets Made BY me :(", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -3588,7 +3588,7 @@ shared.scr = [[  [qetuo] s a s d [0wryo] s a s d
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Eve- Kaikai kitan / Jujutsu Kaisen Op 1", "Auto", function()
+Tab1Section:NewButton("Eve- Kaikai kitan / Jujutsu Kaisen Op 1", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -3764,7 +3764,7 @@ s [48qios] [48qios]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Kimi No Na Wa(Your Name)", "Auto", function()
+Tab1Section:NewButton("Kimi No Na Wa(Your Name)", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -3954,7 +3954,7 @@ m [xv] ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Bad Piggies- Main theme", "Auto", function()
+Tab1Section:NewButton("Bad Piggies- Main theme", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -4077,7 +4077,7 @@ shared.scr = [[ [ywroda97]       8    [w(]       5    [w(]       8    [w(]      
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("Rick Astley- Never Gonna Give You Up", "Auto", function()
+Tab1Section:NewButton("Rick Astley- Never Gonna Give You Up", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -4168,9 +4168,10 @@ shared.scr = [[ [SQP*$] [sWD(%]       %   [W(%]       % [sWD(%] [qg^SE]       ^
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-local Tab = Window:NewTab("Stop Piano")
-local Section = Tab:NewSection("Stop Piano")
-Section:NewButton("Stop piano", "Auto", function()  
+local Tab1 = Window:NewTab("Stop Piano")
+local Tab1Section = Tab1:NewSection("Stop Piano")
+
+Tab1Section:NewButton("Stop piano", "Auto", function()  
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -4186,15 +4187,3 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 end)
 Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.RightControl, function()
     Library:ToggleUI()
-
-end)
-local Tab = Window:NewTab("Speed")
-local Section = Tab:NewSection("Speed")
-Section:NewSlider("Speed", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-end)
-local Tab = Window:NewTab("AutoPlay Piano MAKER")
-local Section = Tab:NewSection("Click It If you want to make your own Auto Play")
-Section:NewButton("Patched!", "Auto", function()  
-    
-end)
