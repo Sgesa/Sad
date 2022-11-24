@@ -4169,6 +4169,46 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPi
 
 end)
 
+Tab1Section:NewButton("Minecraft theme", "Auto", function()  
+ -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ [*IP] - O [QY] - [QEI] -- [*IP] - O [QY] - T
+[*IP] - O [QY] - [EI] -- [*IP] - O [QY] I T E
+[*IP] - T [QY] - [EI] - [TO] [*IP] -  O [QYP] E [TS]
+[*IP] - [OS] [QD] - [EOS] P O [*IP] - O [QYP] - I
+[T] -- [QY] - [EI] -- [TO] - P [QI] T ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+end)
+
+Tab1Section:NewButton("Soviet union", "Auto", function()  
+ -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ [wo] [ts] [wo] [pe] [ra] [0u] [0u] [pe] [wo] [qi] [wo] [8t] [8t] [9y] [9y]
+[0u] [iq] [iq] [oq] [pq] [wa] [es] [dr] [to] [to]
+[fy] [dw] [su] [yd] [ta] [yo] [sr] [ws] [pa] [ar] [0u] [0u]
+[ep] [wo] [qi] [wo] [8t] [8t] [ts] [ar] [ep] [wo] 
+[fr] [dt] [ys] [ua] [us] [yd] [wo] [wo] [sw] [ae] [pr] [ot] [rp] [ya]
+[0u] [0u] [st] [pe] [ra] [st] [pe] [ra] [st] [ep] [ts] [gi]
+[gi] [fi] [ud] [ys] [dt] [fy] [us] [us] [dy] [st] [ar] [ep] [ar] [sr]
+[ep] [ep] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+end)
+
+
 Tab1Section:NewButton("Stop piano", "Auto", function()  
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
