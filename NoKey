@@ -2,13 +2,13 @@ local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("Private Ui", "Synapse")
 
 local Tab1 = Window:NewTab("Auto Piano")
-local Tab1Section = Tab1:NewSection("Auto Piano")
+local Tab1Section = Tab1:NewSection("Credits to JxcExploit I made script movable")
 Tab1Section:NewButton("Faded", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -39,7 +39,7 @@ end)
 Tab1Section:NewButton("Blue bird", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
@@ -75,7 +75,7 @@ Tab1Section:NewButton("Rush E", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -89,7 +89,7 @@ Tab1Section:NewButton("Fur Elise", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -108,7 +108,7 @@ Tab1Section:NewButton("kiss the rain", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -134,7 +134,7 @@ Tab1Section:NewButton("Enemy Imagine dragons transition 2", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -231,7 +231,7 @@ Tab1Section:NewButton("We The Kings", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -266,7 +266,7 @@ Tab1Section:NewButton("Making my way downtown", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -279,7 +279,7 @@ Tab1Section:NewButton("oN MY WAY", "Auto", function()
  -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -377,7 +377,7 @@ Tab1Section:NewButton("Its Raining Tacos", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -390,7 +390,7 @@ Tab1Section:NewButton("World's Smallest Violin", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -460,7 +460,7 @@ Tab1Section:NewButton("Megalovania", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -501,7 +501,7 @@ Tab1Section:NewButton("Merry Go Round Of Life - Howl's Moving Castle", "Auto", f
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -515,7 +515,7 @@ Tab1Section:NewButton("Unravel Tokyo Ghoul", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -749,7 +749,7 @@ Tab1Section:NewButton("Rickroll Hard", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -782,7 +782,7 @@ Tab1Section:NewButton("Silhouette Naruto OP 16", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -795,7 +795,7 @@ Tab1Section:NewButton("Omori Final Duet", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -851,7 +851,7 @@ Tab1Section:NewButton("Great Fairy Mountain (Zelda)", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -896,7 +896,7 @@ Tab1Section:NewButton("Solas", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -1108,7 +1108,7 @@ Tab1Section:NewButton("Lovely Bellie Eilish", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -1142,7 +1142,7 @@ Tab1Section:NewButton("Gnossienne No.1 Transpose 4", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -1175,7 +1175,7 @@ Tab1Section:NewButton("Mariage d'Amour Transpose 2", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -1213,7 +1213,7 @@ Tab1Section:NewButton("Comptine d'un autre été", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -1250,7 +1250,7 @@ Tab1Section:NewButton("Super Idol", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -1365,7 +1365,7 @@ Tab1Section:NewButton("Old Town Road", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -1428,7 +1428,7 @@ Tab1Section:NewButton("Tokyo Revenger - Cry Baby Transpose 4", "Autoplayf", func
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -1541,7 +1541,7 @@ Tab1Section:NewButton("XXXTentacion - SAD!", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -1555,7 +1555,7 @@ Tab1Section:NewButton("No Mercy by 'The Living Tombstone", "Autoplayf", function
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -1593,7 +1593,7 @@ Tab1Section:NewButton("7!! - Orange", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -1612,7 +1612,7 @@ Tab1Section:NewButton("Giorno Theme", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -1626,7 +1626,7 @@ Tab1Section:NewButton("Great Days", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -1670,7 +1670,7 @@ Tab1Section:NewButton("My Wars", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -1866,7 +1866,7 @@ Tab1Section:NewButton("Netsujou no Spectrum", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -1932,7 +1932,7 @@ Tab1Section:NewButton("One Punch Man・THE HERO !!", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -1995,7 +1995,7 @@ Tab1Section:NewButton("Bakemonogatari ED- Kimi no shiranai Monogatari", "Autopla
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2119,7 +2119,7 @@ Tab1Section:NewButton("The World - Death Note", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2133,7 +2133,7 @@ Tab1Section:NewButton("Boku no Hero Academia・Peace Sign", "Autoplayf", functio
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2150,7 +2150,7 @@ Tab1Section:NewButton("gurenge - demon slayer", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2191,7 +2191,7 @@ Tab1Section:NewButton("gurenge - demon slayer 2", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 20 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2276,7 +2276,7 @@ Tab1Section:NewButton("Heat Wave", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2291,7 +2291,7 @@ Tab1Section:NewButton("Sugar Crush Transpose 7", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2326,7 +2326,7 @@ Tab1Section:NewButton("Sugar Crush v2 Transpose 7", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2367,7 +2367,7 @@ Tab1Section:NewButton("Stay", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2428,7 +2428,7 @@ Tab1Section:NewButton("Shot On Iphone Meme Transpose 3", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2453,7 +2453,7 @@ Tab1Section:NewButton("Im at a payphone - marron 5", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2500,7 +2500,7 @@ Tab1Section:NewButton("Heart Attack Transpose -2", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2585,7 +2585,7 @@ Tab1Section:NewButton("Death Bed", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2632,7 +2632,7 @@ Tab1Section:NewButton("Kirameki - Your Lie in April ED TrANSpose -6", "Autoplayf
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2754,7 +2754,7 @@ Tab1Section:NewButton("Kina - Get you to the moon Transpose 4", "Autoplayf", fun
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2810,7 +2810,7 @@ Tab1Section:NewButton("5 seconds of summer - Youngblood Transpose -2 ", "Autopla
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2897,7 +2897,7 @@ Tab1Section:NewButton("Friday Night Funkin - M.I.L.F Transpose 2", "Autoplayf", 
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -2999,7 +2999,7 @@ Tab1Section:NewButton("Chuunibyou demo Koi ga Shitai! Ren OP Transpose -5", "Aut
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -3144,7 +3144,7 @@ Tab1Section:NewButton("River Flows in you Transpose -5", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -3178,7 +3178,7 @@ Tab1Section:NewButton("Squid Game OST - Way Back Then", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -3209,7 +3209,7 @@ Tab1Section:NewButton("Squid Game Theme", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -3259,7 +3259,7 @@ Tab1Section:NewButton("Rush C", "Autoplayf", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -3273,7 +3273,7 @@ Tab1Section:NewButton("House Of Memories - Panic! At the Disco", "Auto", functio
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -3305,7 +3305,7 @@ Tab1Section:NewButton("left and right - charlie puth (ft. jung kook of BTS)", "A
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
 
@@ -3394,7 +3394,7 @@ Tab1Section:NewButton("Toxic Full Version", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
 
@@ -3490,7 +3490,7 @@ Tab1Section:NewButton("Ghost-Justin Bieber", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
 
@@ -3555,7 +3555,7 @@ Tab1Section:NewButton("One Call Away Charlie Puth", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
 
@@ -3569,7 +3569,7 @@ Tab1Section:NewButton("GoodBye Subscriber Sheets (stolen)", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
 
@@ -3589,7 +3589,7 @@ Tab1Section:NewButton("Eve- Kaikai kitan / Jujutsu Kaisen Op 1", "Auto", functio
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
 
@@ -3765,7 +3765,7 @@ Tab1Section:NewButton("Kimi No Na Wa(Your Name)", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
 
@@ -3955,7 +3955,7 @@ Tab1Section:NewButton("Bad Piggies- Main theme", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 30 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
 
@@ -4078,7 +4078,7 @@ Tab1Section:NewButton("Rick Astley- Never Gonna Give You Up", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 20 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
 
@@ -4170,7 +4170,7 @@ Tab1Section:NewButton("Minecraft theme", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -4188,7 +4188,7 @@ Tab1Section:NewButton("Soviet union", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
@@ -4210,7 +4210,7 @@ Tab1Section:NewButton("Stop piano", "Auto", function()
 
 shared.stop = true -- stops the player at any time if true
 -- CONFIG:
-shared.ftime = 2*40 + 00 -- time in seconds for the song to finish (extended by |)
+shared.ftime = 2*30 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
